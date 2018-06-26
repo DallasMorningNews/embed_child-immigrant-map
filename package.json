@@ -1,0 +1,40 @@
+{
+  "name": "embed_embed-child-immigrant-map",
+  "version": "1.0.0",
+  "main": "src/js/scripts.js",
+  "license": "UNLICENSED",
+  "repository": "DallasMorningNews/embed_embed-child-immigrant-map",
+  "private": true,
+  "dependencies": {
+    "geojson": "^0.5.0",
+    "jquery": "^3",
+    "normalize.css": "*",
+    "pym.js": "^1.x"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "babel-eslint": "^8.2.5",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.5",
+    "browserify": "^14.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-awspublish": "^3.3.0",
+    "gulp-confirm": "^1.0.4",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

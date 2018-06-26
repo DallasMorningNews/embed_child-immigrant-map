@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="stylesheet" href="https://cloud.typography.com/7613174/7017952/css/fonts.css">
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+
+    <div id="embed__container">
+      <div class="embed__chatter">
+        <h4>Immigrant children in Texas shelters</h4>
+        <p>Texas’ Health and Human Services Commission estimates there are nearly 5,000 immigrant children living without their parents in shelters around the state. (More than 200 are also being housed through “child-placement agencies.”) Click the circles below to see the name of the shelter, location and number of children housed there:</p>
+      </div>
+      <div class="embed__content">
+
+        <div id="map-container">
+          <div class="legend">
+            <h6>Num. children</h6>
+            <div class="circle-container">
+              <span class="large-circle"></span>
+              <span class="small-circle"></span>
+
+            </div>
+          </div>
+          <div id="map"></div>
+        </div>
+        <!-- !!!!!!! The rest of your content goes here !!!!!!! -->
+        <p class="source">Soure: Health and Human Services Commission. Note: The commission’s figures include children who crossed the border illegally without their parents, and those who were separated from parents upon reaching America under the Trump Administration’s former “zero-tolerance” policy.</p>
+        <p class="credit">John Hancock, Allan James Vestal / DMN</p>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://interactives.dallasnews.com/common/scripts/embed-tracker/embed-tracker.min.js"></script>
+  </body>
+</html>
